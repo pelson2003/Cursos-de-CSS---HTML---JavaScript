@@ -1,0 +1,26 @@
+
+
+<head>
+	<title>Primeiro Programa Java Script</title>
+</head>
+<body>
+	<p id="textojs"> Texto Inicial </p>
+	<input type="text" id="caixa" value="Digite o Texto"/>
+	<button onclick="mudarTextoAlterado()">Mudar Texto para Alterado</button>
+	<button onclick="mudarTextoDigitado()">Mudar Texto para TextoDigitado</button>
+</body>
+	<script>
+		function mudarTextoAlterado(){
+			//window.alert("Olá Mundo usando Windows");
+			var textojs = document.getElementById("textojs");
+			textojs.innerHTML="Texto Alterado";
+			//window.alert(textojs);
+			console.log(textojs);
+			caixa.value="Digite o Texto";
+		}
+		function mudarTextoDigitado(){
+			var caixa = document.getElementById("caixa");
+			textojs.innerHTML=caixa.value;
+		}
+	</script>
+</html>

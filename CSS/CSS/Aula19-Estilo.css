@@ -1,0 +1,47 @@
+#introducao {
+}
+#segundoparagrafo {
+}
+span {
+}
+div{
+}
+h1{
+}
+a {
+	text-decoration: none;	
+	color:#000;
+	background-color:  #DDDDDD;
+	border:1px solid black;
+	width: 90px;
+	display: block; /* transforma em bloco */
+	padding: 3px 5px;
+}
+
+a:hover { /* Hover é para quando passamos o mouse por cima */
+	text-decoration: underline;
+	color: #DDDDDD;
+	background-color: 000;
+}
+
+a[href^="http:"] { /*referencia a um link que comece com http */
+	background: url(img/GSK.jpg) no-repeat left top;
+	padding-right: 15px;
+
+}
+a[href^="mailto:"] { /* comece com mailto */ 
+	background: url(img/GSK.jpg) no-repeat center center;
+	padding-right: 15px;
+}
+
+a[href$=".zip"] { /* comece com mailto */ 
+	background: url(img/GSK.jpg) no-repeat center center;
+	padding-right: 15px;
+}	
+
+img { /* todas as imagens */
+	border:none;
+}
+a img { /* imagens dentro de A */
+	border:none;
+}

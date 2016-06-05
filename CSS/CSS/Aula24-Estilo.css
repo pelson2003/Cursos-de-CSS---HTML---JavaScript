@@ -1,0 +1,39 @@
+#introducao {
+}
+#segundoparagrafo {
+}
+div{
+}
+a {
+}
+a:hover {
+}
+a[href^="http:"] { 
+}
+a[href^="mailto:"] {
+}
+a[href$=".zip"] { 
+}	
+img {
+}
+a img { 
+}
+ul {
+}
+h1, h3, p {
+	border: 1px solid black;
+}
+span {
+	border: 1px solid black;
+	position: static;
+	left: 60px; /* mesmo estando no position normal vai funcionar o left e right */
+	right: 30px; /* vai funcionar porque span é um elemento in-line */
+}
+#tit {
+	position: static;
+	left: 60px; /* como estamos no normal, static, o left e right nao funciona */
+	right: 30px; /* nao funciona no posicion normal nos em bloco
+}
+
+
+

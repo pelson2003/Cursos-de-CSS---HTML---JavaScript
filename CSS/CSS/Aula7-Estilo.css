@@ -1,0 +1,45 @@
+
+div h1:first-child{
+	color:red;
+}
+
+a:link{
+	color:red;
+}
+
+a:visited{
+	color:green;
+}
+
+input[type="text"]:focus {
+	background-color:yellow;
+}
+
+label[type="text"]:hover {
+	background-color:yellow;
+}
+
+a:active {
+	color:green;
+}
+
+a:lang(en) {
+	color:gray;
+}
+
+p:first-line {
+	color:#0000FF;
+}
+
+p:first-letter {
+	color:yellow;
+	font-size:40px;
+}
+
+p:after{
+	content: "FIM";
+}
+
+p:before{
+	content: "INICIO";
+}

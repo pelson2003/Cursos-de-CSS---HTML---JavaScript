@@ -1,0 +1,10 @@
+* {
+	font-size: 12px;
+}
+#container {
+	border: 1px solid black;
+	width:500px; /*Largura Fixa*/
+	width:80%; /*Largura baseada em %*/
+	min-width: 300px;  /*Largura Minima*/
+	width: 20em; /*baseada no tamanho da fonte*/
+}

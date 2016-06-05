@@ -1,0 +1,29 @@
+div {
+	border: 1px solid black;
+}
+
+#container {
+	/* Centralizando a pagina */
+	width: 600px;
+	margin: 0 auto;
+}
+
+#header {
+	height: 80px;
+	background-color: #DDDDDD;
+}
+
+#left {
+	float:left;
+	width: 130px;
+}
+
+#content {
+	float:right;
+	width: 450px
+}
+
+/* Manter o Rodapé em baixo */
+#footer {
+	clear:both;
+}

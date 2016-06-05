@@ -1,0 +1,11 @@
+#introducao {
+	text-decoration: underline;
+	text-decoration: overline;
+	text-decoration: line-through;
+}
+#segundoparagrafo {
+	text-decoration: blink;
+}
+span {
+}
+

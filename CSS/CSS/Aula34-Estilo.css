@@ -1,0 +1,10 @@
+div {
+}
+#container {
+	border: 2px solid;
+	width: 200px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888; 
+	/* Comando Antigo -moz-border-radius:10px*/
+}

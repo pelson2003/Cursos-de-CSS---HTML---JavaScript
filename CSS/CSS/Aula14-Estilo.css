@@ -1,0 +1,16 @@
+#introducao {
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	line-height: 30px; /* Entre as linhas */
+	line-height: 2; /* 2x tamanho da fonte */
+	line-height: 20%; /* 20% do tamanho da fone */
+}
+
+#segundoparagrafo {
+
+}
+
+span {
+	vertical-align: sub;
+}
+

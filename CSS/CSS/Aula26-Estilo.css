@@ -1,0 +1,46 @@
+#introducao {
+}
+#segundoparagrafo {
+}
+div{
+	border:red;
+	position: relative;
+}
+a {
+}
+a:hover {
+}
+a[href^="http:"] { 
+}
+a[href^="mailto:"] {
+}
+a[href$=".zip"] { 
+}	
+img {
+}
+a img { 
+}
+ul {
+}
+li {
+}
+h1, h2, h3, p {
+}
+span {
+}
+#um {
+}
+#dois {
+	position: absolute; /* Libera o espaço */
+	background-color: #DDDDDD;
+	left: 50px;
+	top: 50px;
+}
+#tres {
+}	
+.destaque {
+}
+h3 {
+	border: 1px solid black;
+}
+

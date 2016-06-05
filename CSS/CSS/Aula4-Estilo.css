@@ -1,0 +1,26 @@
+*	{
+	color:#006699;
+	margin:0;
+	}
+
+p	{
+	color:#0000CC;
+ 	}
+
+.destaque	{
+			color:#CC0000;
+			}
+
+.detalhe	{
+			text-decoration: underline;
+			}
+
+#introducao	{
+			background-color: #FFCC33;
+			}
+
+em[title="Empresa"] {
+					color:#336600;
+					font-size: 20px;
+					}
+Elemento[] Elemento[att=valor] Elemento [att~=val] (contem o valor) Elemento [att|val] (valores separados por -)

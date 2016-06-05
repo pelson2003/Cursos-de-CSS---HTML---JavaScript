@@ -1,0 +1,30 @@
+p {
+	color:#0000FF !important;
+	margin-top: 1px;
+	margin-right: 50px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+
+	margin: 1px 50px 50px 30px;
+	margin: 20px;
+	margin: 20px, 50px;
+
+	padding-right: 50px;
+
+	border-top-width:5px;
+	border-left-width: 10px;
+	border-width: 1px 50px 50px 30px;
+	border-color: red;
+	border-top-color: blue;
+
+	border-style:solid;
+
+
+
+	
+
+}
+
+div > p {
+	color::#0000FF;
+}

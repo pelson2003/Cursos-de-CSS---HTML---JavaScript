@@ -1,0 +1,23 @@
+.email {
+	/* Carrega a imagem e posiciona o ponto que vc quer Hori/Vert */
+	background: url(img/praia.jpg) -138px -143px;
+	/* Define o tamanho da imagem */
+	height: 50px;
+	width: 50px;
+}
+
+.busca {
+	/* Carrega a imagem e posiciona o ponto que vc quer Hori/Vert */
+	background: url(img/praia.jpg) -100px -100px;
+	/* Define o tamanho da imagem */
+	height: 50px;
+	width: 50px;
+}
+
+.edita {
+	/* Carrega a imagem e posiciona o ponto que vc quer Hori/Vert */
+	background: url(img/praia.jpg) -90px -80px;
+	/* Define o tamanho da imagem */
+	height: 50px;
+	width: 50px;
+}

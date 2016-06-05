@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabelas Introdução</title>
+</head>
+<body>
+	<form action="http://www.google.com" method="get">
+		<label for="nomeNormal">Nome:</label>
+		<input type="text" id="nomeNormal" tabindex="1" value="Nome Normal" /><br/>
+		<label for="nomeDisabilitado">Nome Disable:</label>
+		<input type="text" id="nomeDisabilitado" tabindex="1" value="Nome Disable" disabled="disabled" /><br/>
+		<label for="nomeReadOnly">Nome ReadOnly:</label>
+		<input type="text" id="nomeReadOnly" tabindex="1" value="Nome ReadyOnly" readonly="readonly" /><br/>
+		
+		<input type"hidden" id="chave" value="a ser enviado via form, oculto para o user" />
+
+		<fieldset>
+			<legend>Informações Pessoais:</legend>
+			Senha:
+			<input type="password" id="senha" tabindex="3" accesskey="P" /><br/>
+			Sexo:<br>
+			<input type="radio" name="sexo" value="M">Masculino<br>
+			<input type="radio" name="sexo" value="M">Ferminio<br>
+		</fieldset>	
+		<br><br>
+		<fieldset>
+			<legend>EU SOU UM FIELDSET:</legend>
+				Conhecimentos:<br>
+				<input type="checkbox" name="conhecimentos" value="java" /> Java <br>
+				<input type="checkbox" name="conhecimentos" value="html" /> Html <br>
+				<input type="checkbox" name="conhecimentos" value="css" /> CSS <br>
+				<input type="checkbox" name="conhecimentos" value="xslt" tabindex="2"/> XSLT <br>
+				Curriculo: <br>
+				<input type="file" id="curriculo" /><br>
+				Envio de Arquivo <br>
+				<input type="submit" value"Enviar" /><br>
+		</fieldset>
+		<br><br>
+		Reset: <br>
+		<input type="reset" value="Limpa" /><br>
+		Pais: <br>
+		<select id="pais">
+			<option value="BR">Brasil</option>
+			<option value="UR">Uruguai</option>
+			<option>Argentina</option>
+		</select>	
+		<br><br>
+		Resumo:<br/>
+		<textarea name="Resumo" cols="80" rows="6">Escreva seu Remuo</textarea>
+		<br><br>
+		Editores ou Navegadors:<br>
+		<br>
+		<select id="en">
+			<optgroup label="Editores">
+				<option>Notepad++</option>
+				<option>Dream</option>
+				<option>Eclipse</option>
+			</optgroup>
+			<br>
+			<optgroup label="Navegadores">
+				<option>Safari</option>
+				<option>Netscape/option>
+				<option>Opera</option>
+			</optgroup>
+		</select>
+		<br></br>
+		Button: 
+		<input type="button" value="Dispara o Submit pelo Post" /><br>
+	</form>
+
+</body>
+</html>

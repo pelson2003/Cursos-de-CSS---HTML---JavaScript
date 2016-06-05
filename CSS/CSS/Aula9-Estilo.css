@@ -1,0 +1,7 @@
+p {
+	color:#0000FF !important;
+}
+
+div > p {
+	color::#0000FF;
+}

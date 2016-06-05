@@ -1,0 +1,9 @@
+p {
+	/* ordem de prioridade de utilização pelo user, sans-serif=super generica*/
+	font-family: "lucida grande", "lucida sans", verdana, sans-serif;
+	font-style:  italic;
+	font-weight: bold;
+	font-weight: 500;
+	font-variant: small-caps;
+}
+

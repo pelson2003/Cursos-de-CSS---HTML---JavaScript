@@ -1,0 +1,42 @@
+#introducao {
+}
+#segundoparagrafo {
+}
+span {
+}
+div{
+}
+h1{
+}
+a {
+}
+a:hover {
+}
+a[href^="http:"] { 
+}
+a[href^="mailto:"] {
+}
+a[href$=".zip"] { 
+}	
+img {
+}
+a img { 
+}
+ul {
+	list-style-type: square; /* formatos */
+	list-style-type: circle; /* formatos */
+	list-style-type: disc; /* formatos */
+	list-style-type: decimal; /* 1..2...3 */
+	list-style-type: decimal-leading-zero; /* 0....1..2...3 */
+	list-style-type: lower-roman; /* romanos */
+	list-style-type: upper-roman;
+	list-style-type: georgian;
+	list-style-type: armenian;
+	list-style-type: lower-latin; /* alfaberto */
+	list-style-type: upper-latin;
+	list-style-position: outside;
+	list-style-position: inside; 
+	/* list-style-type: none;
+	list-style-image: url(); */	
+}
+

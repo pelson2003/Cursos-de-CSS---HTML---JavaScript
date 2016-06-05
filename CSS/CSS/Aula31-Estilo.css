@@ -1,0 +1,43 @@
+div {
+	border: 1px solid black;
+}
+
+#container {
+	width: 700px;
+	margin: 0 auto
+}
+
+#header {
+}
+
+#left {
+	float:left;
+	width: 130px;
+	background: #666666;
+}
+
+#content {
+	float:right;
+	width: 550px;
+}
+
+#content > #main {
+	float:left;
+	width: 340px;
+}
+
+#header {
+	height:80px;
+	background-color:#DDDDDD;
+}
+
+#content > #right {
+	float:right;
+	width: 200px;
+	text-align: justify-all;
+}
+
+#footer {
+	clear:both;
+	background-color:#DDDDDD;
+}

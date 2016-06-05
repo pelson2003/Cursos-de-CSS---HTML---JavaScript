@@ -1,0 +1,21 @@
+* {
+	font-size: 10px;
+}
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	/* a fonte será 3 vezes maior que a fonte defailt definida no *** */
+	font-size: 3em;
+}
+
+h1,h2 {
+	/* o comando abaixo diz que a margim esquerda vai ser do tamanho da fonte */
+	/* para o h1 seria 50px e para o h2 seria 20 px */
+	margin-left:1em; 
+}
+
+p{
+	font-size:0.6em;
+}

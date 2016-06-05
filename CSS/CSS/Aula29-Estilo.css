@@ -1,0 +1,15 @@
+* {
+	font-size: 12px;
+}
+#container {
+	border: 1px solid black;
+	width:500px; /*Largura Fixa*--- LAYOUT FIXO */ 
+	width:80%; /*Largura baseada em %* LAYOUT LIQUIDO */
+	min-width: 300px;  /*Largura Minima*/
+	width: 20em; /*baseada no tamanho da fonte*/
+	/* A MAIORIA EH CENTRALIZADO USANDO O SEGUINTE - MARGENS AUTOMATICAS */
+	margin-top: 0; 
+	margin-left: auto; /*espaço que sobre e total, diminui e divide entre esquerda e direita*/
+	margin-bottom: 0;
+	margin-right: 20;
+}
