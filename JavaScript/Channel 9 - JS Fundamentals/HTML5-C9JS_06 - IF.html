@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Conditional Logic in JavaScript</title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript">
+
+		var someValue = 24;
+		var otherValue = 23;
+
+		if(someValue > 30){
+			alert("firstcase");
+		} else if (someValue < 30) {
+			alert("second case");
+		} else {
+			alert("third case, nada funcionou");
+		}
+
+		if(someValue > 20 && otherValue > 20){
+			alert("os dois são verdadeiros");
+		}
+
+		if(someValue > 20 || otherValue > 20){
+			alert("um dos dois é verdadeiro");
+		}
+
+
+		if(someValue !== 24){
+			alert("ele não é 24");
+		}
+
+		if(!someValue){
+			alert("someValue==false");
+		}
+
+		var myresult = "";
+		myResult = (someValue === 24) ? "equal" : "not equal";
+		alert(myresult);
+
+	var user="Nelson Gomes";
+		switch(user)
+		{
+			case "Joao":
+				document.write("Acertou Nelson");
+				break;
+			case "Nelson Gomes":
+				document.write("Acertou Nelson");
+				break;
+			default:
+				document.write("javu");
+		}
+
+	var rightNow = new Date();
+	var currentHour = rightNow.getHours();
+	switch(true)
+	{
+		case (currentHour > 8 && currentHour < 12):
+			document.write("LunchTime");
+			break;
+		case (currentHour === 12):
+			document.write("LunchTime");
+			break;
+		case (currentHour > 12 && currentHour < 18):
+			document.write("LunchTime");
+			break;
+		default:
+			document.write("final sollution");
+	}  
+
+
+
+	</script>
+</head>
+<body onload="alert('Hello World')">
+	<H1>Conditional Logic in JavaScript</H1>
+</body>
+</html>

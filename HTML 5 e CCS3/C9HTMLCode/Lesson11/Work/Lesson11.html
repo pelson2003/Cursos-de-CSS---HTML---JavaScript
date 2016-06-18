@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lesson 11 - Form Validation and other Future HTML5 Form Enhancements</title>
+  <style type="text/css" media="all">
+    span {
+      width: 175px;
+      display:block;
+      float:left;
+    }
+    input {
+      float:left;
+    }
+    p {
+      padding-top:10px;
+      clear: all;
+    }
+    h2 {
+      padding-top:20px;
+      clear: all;
+    }
+    label {
+      padding-right:20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Creating Forms</h1>
+
+<form method="POST" action="form.aspx">
+
+    <h2>Email</h2>
+    <p><label><span>Email Input:</span><<input type="email" name=emailInput required></label></p>
+
+    <h2>TEL</h2>
+    <p><label><span>Telephone</span><input type="tel" name=TelInput required></label>tretete</p>
+
+    <h2>URL</h2>
+    <p><label><span>URL</span><input type="url" name=urlInput required></label>tretete</p>
+
+    <h2>NUMERIC</h2>
+    <p><label><span>NUM</span><input type="number" name=numberlInput required></label>NUMERIC</p>
+
+    <h2>RANGE</h2>
+    <p><label><span>RANGE</span><input type="range" name=rangelInput required value=42></label>Value set 42 By defaiçt 1 and 1000</p>
+
+    <h2>DATA</h2>
+    <p><label><span>DATA LIST</span>
+      <input type="text" list=someList>
+        <datalist id=someList>
+          <option label=First value="First"></option>
+          <option label=Second value="Second"></option>
+          <option label=Third value="Third"></option>
+        </datalist>
+    </label>
+    </p>
+
+    <h2>Attributes</h2>
+    <p><label><span>autofocus</span><input type="text" autofocus></label></p>
+
+    <p><label><span>pattern:</span><input type="text" pattern="^\d{5}(-\d{4])?$"></label>Hi use a valid zipcode</p>
+
+      <h2>PLACEHOLDER - que desaparece sem precisar deletar</h2>
+      <p><label><span>placeholder</span><input type="text" placeholder="HelloWorld"></label></p>
+    
+      <h2>REQUIRED = NECESSARIO</h2>
+      <p><label><span>required</span><input type="text" required></label></p>
+
+      <h2>STEP = Neste caso numero de 5 em 5</h2>
+      <p><label><span>step</span><input type="number" step=5></label>must be divisible by 5</p>
+
+
+
+<p><button>Submit</button></p>
+
+</form>
+
+</body>
+</html>

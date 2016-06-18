@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Arrays in JavaScript</title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript">
+
+	// while 
+	/*
+	var playlist = [];
+	playlist[0] = "Who";
+	playlist[1] = "U2";
+	playlist[2] = "Dire";
+	playlist[3] = "Ivete";
+	playlist[4] = "Claudia";
+
+	var i=0;
+	while( i < playlist.length){
+		document.write("<br />" + playlist[i]);
+		i++;
+	}
+	*/
+
+	//Do While
+	/*
+	var someResult = false;
+	do {
+		document.write("Will Print at lease once");
+	}
+	while(someResult == true);
+	*/
+
+	// For Loop
+
+	var playlist = [];
+	playlist[0] = "Who";
+	playlist[1] = "U2";
+	playlist[2] = "Dire";
+	playlist[3] = "Ivete";
+	playlist[4] = "Claudia";
+	for (var i=0; i < playlist.length; i++){
+		document.write("<br />" + playlist[i]);
+	}
+
+	// Super For
+
+	for (i in playlist){
+		document.write("<br />" + playlist[i]);
+	}
+	
+	</script>
+</head>
+<body>
+	<H1>Arrays in JavaScript</H1>
+	<input type="submit" value="Click me" onclick="add(1, 2,3,4,5);"/>
+</body>
+</html>
