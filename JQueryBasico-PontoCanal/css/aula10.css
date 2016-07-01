@@ -1,0 +1,33 @@
+body{
+	font:14px;
+	width: 460px;
+	margin-top:20px;
+  	margin:0 auto;	
+  	padding: 20px;
+}
+
+.ex1, .ex2, .ex3, .ex4{
+	width: 460px;
+	padding: 20px;
+	background: blue;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	margin-bottom: 5px;
+}
+
+p, input, button{
+	width: 460px;
+	padding: 20px;
+	background: black;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	border: 5px solid #ccc;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+input{
+	margin-left: 425px;
+}

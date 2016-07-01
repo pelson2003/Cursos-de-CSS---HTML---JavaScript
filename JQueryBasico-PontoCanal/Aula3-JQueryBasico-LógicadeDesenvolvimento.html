@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Lógica de Desenvolvimento em JQuery</title>
+	<link rel="stylesheet" href="">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript">
+
+	$(document).ready(function() {
+
+		// Trabalhando com H1 com várias linhas
+		
+			$("h1").css("color","#f66");
+			$("h1").hide();
+			$("h1").delay("1000");
+			$("h1").fadeIn("slow");
+			$("h1").text("Curso JQuery PontoCanal");
+
+		// Trabalhando em 1 linha
+
+			$("h2").css("color","#f66").hide().delay("1000").fadeIn("slow").text("Na mesma linha");
+
+		// Trabalhando em Bloco
+
+			$("h3").css("color","#f66")
+			.hide().delay("1000")
+			.fadeIn("slow")
+			.text("Na mesma linha");
+
+		// Encadeamento de Funções + Blocos
+
+			$("h4").css("color","#f66")
+			.hide().delay("1000")
+			.fadeIn("slow")
+			.text("Na mesma linha")
+			.click(function(){
+				$("body").css("background","#8A4141");
+				$("h4").css("color","#338C96");
+			});
+
+		// Interação, vários elementos juntos;
+
+			$("a").css({color:"blue",display:"block"});
+			// Selectionando Classe
+				$(".link2").css("color","green");
+			// Selecionando ID
+				$("#link3").css("color","black");
+			// Atacando todos os elementos
+				$("*").css("margin","0");
+				$("*").css("padding","10px");
+			// Selecionando mais de 1 elemento
+				$("h1, #link3").css("border-bottom","solid 3px blue");
+
+
+	});
+
+
+	</script>
+</head>
+<body>
+	
+	<h1>PontoCanal Inscreva-se</h1>
+	<h2>Na mesma linha</h2>
+	<h3>Trabalhando em Bloco</h3>
+	<h4>Bloco + Funcao</h3>
+	<h5>Interaçao</h5>
+
+
+	<a href="#">Link 1</a>
+	<a href="#" class="link2">Link 2</a>
+	<a href="#" id="link3">Link 3</a>
+
+
+</body>
+</html>

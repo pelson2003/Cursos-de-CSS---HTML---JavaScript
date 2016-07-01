@@ -1,0 +1,21 @@
+body{font:14px;}
+
+.ex1{
+	width: 460px;
+	padding: 20px;
+	background: blue;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+}
+
+p, input{
+	width: 480px;
+	padding: 5px;
+	background: black;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	border: 5px solid #ccc;
+	margin-top: 10px;
+}

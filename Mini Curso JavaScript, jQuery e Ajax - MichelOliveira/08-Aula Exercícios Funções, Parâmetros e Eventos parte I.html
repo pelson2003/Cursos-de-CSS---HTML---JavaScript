@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Titulo Aula 7</title>
+	<link rel="stylesheet" href=""> 
+
+	<script>
+		window.onload = function() {
+			document.getElementById("ola").addEventListener("click", function() {
+				alert("Seja Bem Vindo");
+				document.write("Seja Bem Vindo");
+			}, true);
+		};
+	</script>
+</head>
+
+<body>
+	
+	<h1> Aula 7 - Eventos </h1>
+
+	<noscript><br>Seu navegador nao suport JavaScript</noscript>
+
+	<br>	 
+	<button onclick="this.innerHTML=Date()">Que horas sao</button>
+	<br>
+	<button onclick="getElementById('aperte').innerHTML=Date()">Que horas Sao</button>
+	<p id="aperte"></p>
+	<br><br>
+	<button id="ola">OI</button>
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Titulo Aula 6</title>
+	<link rel="stylesheet" href="">
+</head>
+
+<body>
+	
+	<h1> Exemplo 2 - Convertendo K em Celsius </h1>
+	
+	<script>
+		k = prompt("Digite o valor em Kelvim");
+		document.write("Voce Digitou: " + k + " Kelvin");
+	</script>
+	
+	<p id="conversao" ></p>
+	
+	<script>
+		
+		function toCelsius(k){
+			return k-273;
+		}
+
+		document.getElementById("conversao").innerHTML = "Valor em Celsius: " +toCelsius(k);
+
+	</script>
+
+</body>
+</html>
